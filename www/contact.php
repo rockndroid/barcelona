@@ -4,20 +4,20 @@ if(isset($_POST['email'])) {
 
     $email_to = "hello@madg.events";
 
-    $email_subject = "Website Contact";
+    $email_subject = "Contacto desde la web de #MADG";
 
 
     function died($error) {
 
         // your error code can go here
 
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "Ups! parece que hay algun error con los datos que has puesto.. ";
 
-        echo "These errors appear below.<br /><br />";
+        echo "Puede ser esto?<br /><br />";
 
         echo $error."<br /><br />";
 
-        echo "Please go back and fix these errors.<br /><br />";
+        echo "Por favor, intenta arreglarlos e intenta otra vez (:<br /><br />";
 
         die();
 
@@ -33,7 +33,7 @@ if(isset($_POST['email'])) {
 
         !isset($_POST['message'])) {
 
-        died('We are sorry, but there appears to be a problem with the form you submitted.');
+        died('No has rellenado nombre, email o mensaje.');
 
     }
 
@@ -83,7 +83,7 @@ if(isset($_POST['email'])) {
 
 
 
-Thank you for contacting me. Will be in touch with you very soon.
+Gracias por ponerte en contacto con nosotros. Tendrás noticias nuestras en breves (:
 
 
 
