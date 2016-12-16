@@ -1,4 +1,4 @@
-<h1>MADG Website</h1>
+<h1>BADG Website</h1>
 
 Based on a <a href="http://joashpereira.com/templates/material_one_pager/">Joash Pereira</a> template.
 <br/>
